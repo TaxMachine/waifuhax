@@ -1,0 +1,14 @@
+{
+	"java.jdt.ls.lombokSupport.enabled": false,
+	"java.jdt.ls.java.home": "${env:JAVA_HOME}",
+	"java.jdt.ls.vmargs": "-javaagent:./.vim/lombok-1.18.34.jar",
+	"java.compile.nullAnalysis.mode": "automatic",
+	"java.configuration.runtimes": [
+		{
+		"name": "JavaSE-21",
+		"path": "${env:JAVA_HOME}/lib/openjdk/",
+		"default": true
+		}
+	],
+	"java.import.gradle.java.home": "${env:JAVA_HOME}/lib/openjdk"
+}

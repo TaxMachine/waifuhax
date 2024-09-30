@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.someboringnerd.waifuhax.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractBlockAccessor"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin",
+    "MinecraftClientMixin",
+    "PlayerListHudMixin",
+    "WindowMixin",
+    "events.ChatHUDMixin",
+    "events.ChatInputSuggestorMixin",
+    "events.ChunkOcclusionDataBuilderMixin",
+    "events.ClientPlayNetworkMixin",
+    "events.InGameHudMixin",
+    "events.KeyboardMixin",
+    "events.MouseMixin",
+    "events.NetworkHandlerMixin",
+    "events.PlayerEntityMixin"
+  ]
+}

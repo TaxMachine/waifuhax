@@ -1,0 +1,19 @@
+= [Module]
+
+Category : link:/Modules[Exploits]
+
+Type of module :
+
+%description%
+
+== Settings
+[cols="~,~,~,~,~"]
+|===
+
+| name
+| description
+| type
+| default value
+| range
+
+|===
